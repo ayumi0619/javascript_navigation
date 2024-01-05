@@ -3,30 +3,31 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
   }
   
   #btn-open,
-    #btn-close {
+  #btn-close {
     position: fixed;
     top: 0;
     right: 0;
     width: 40px;
     height: 40px;
-    background: #000;
-    color: #FFF;
+    background: #f2ef13;
+    color: #ffffff;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 100;
   }
-
+  
   #btn-close {
     z-index: 300;
   }
-
+  
   #menu {
-    background: #000;
+    background: #1f1867;
     position: fixed;
     top: 0;
     right: 0;
@@ -57,4 +58,5 @@ body {
   #menu a:hover {
     color: #666;
   }
+
   
